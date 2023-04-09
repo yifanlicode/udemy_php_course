@@ -5,6 +5,8 @@
     <title>Document</title>
 </head>
 <body>
+
+
 <?php 
 
 $x = "outside"; // global
@@ -16,15 +18,17 @@ $x = "inside"; // local
 }
 
 
-echo $x;
+echo $x; // outside
 
 echo "<br>";
 
-convert();
+convert(); // call the function
+echo "<br>";
 
-echo $x;
+echo $x; // inside
+echo "<br>"; 
 
-echo $x;
+echo $x; // inside
 
     
     

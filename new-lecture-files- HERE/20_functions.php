@@ -10,7 +10,6 @@
 
 function init(){
 
-
 say_Something();
 echo "<br>";
 calculate();  

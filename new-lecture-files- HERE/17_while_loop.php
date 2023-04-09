@@ -6,14 +6,17 @@
 </head>
 <body>
 
+
+
 <?php 
 
 $counter = 0;
-while($counter <= 10 ){
+while($counter <= 200 ){
 
     echo $counter;
+    echo "<br>";
     $counter++;
-//    $counter = $counter + 1;
+// $counter = $counter + 1;
 
 }
 

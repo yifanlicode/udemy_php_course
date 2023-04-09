@@ -25,6 +25,46 @@
 
  */
 
+ if(3 > 10){
+	echo "three is less than ten";
+} elseif( 4 > 5) {
+	echo "of course four is less than five";
+}
+else {
+	echo "I love PHP";
+};
+
+echo "<br>";
+
+for($i = 0; $i < 10; $i++){
+	echo $i;
+}
+echo "<br>";
+
+$number = 11;
+
+switch($number){
+	case 11:
+		echo "it is 11";
+		break;
+	case 37:
+		echo "it is 37";
+		break;
+	case 35:
+		echo "it is 35";
+		break;
+	case 7:
+		echo "it is 7";
+		break;
+	case 3:
+		echo "it is 3";
+		break;
+	default:
+		echo "we could not find anything";
+}
+
+
+
 	
 ?>
 

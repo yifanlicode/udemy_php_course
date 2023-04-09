@@ -10,15 +10,15 @@
 
 $string = "Hello student do you like the class";
 
-echo strlen($string);
+echo strlen($string); // strlen表示字符串的长度 
 
 echo "<br>";
 
-echo strtoupper($string);
+echo strtoupper($string); // strtoupper表示全部大写
 
 echo "<br>";
 
-echo strtolower($string);
+echo strtolower($string); // strtolower表示全部小写
 
 
 

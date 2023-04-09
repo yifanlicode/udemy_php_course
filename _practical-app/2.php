@@ -28,8 +28,13 @@
 		 
 			 */
 
-		
+		$number1 = 10;
+		$number2 = 20;
 
+		echo $number1 + $number2 . "<br>";
+
+		$number = array(10, 20);
+		$number = [ 'number1'=>10, 'number2'=>20];
 
 		?>
 

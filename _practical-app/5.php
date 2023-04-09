@@ -25,6 +25,21 @@
 
  */
 
+ echo pow(3,2);
+ echo "<br>";
+ echo strlen("Hello World");
+ echo "<br>";
+
+ echo rand(1,1000);
+ echo "<br>";
+
+//explode() function breaks a string into an array.
+ $string = "Hello World";
+ $array = explode(" ", $string);
+ echo $array[0];
+ echo "<br>";
+ echo $array[1];
+
 	
 ?>
 

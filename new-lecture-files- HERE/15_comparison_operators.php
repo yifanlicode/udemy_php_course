@@ -6,13 +6,13 @@
 </head>
 <body>
 
-<!--
 
-  <h2>Comparison Operators</h2>
+// 比较运算符 
+  <h2>Comparison Operators </h2> 
   <pre>
       
       equal ==
-      identical ===
+      identical === 恒等于  
       compare > <  >= <= <>
       not equal !=
       not identical !==
@@ -28,12 +28,12 @@
     Not  !
       
 </pre>
--->
+
 
 
 <?php 
    
-if(4 === 4 && 5 < 10 ) {
+if(4 === 4 && 5 < 10 ) { 
 
     echo "it is true <br>";
 

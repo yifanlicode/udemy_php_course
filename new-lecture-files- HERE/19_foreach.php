@@ -6,6 +6,11 @@
 </head>
 <body>
 
+<!-- 
+foreach 语句的用法
+foreach 语句是用来遍历数组的
+ -->
+
 <?php 
 
 $numbers = array(345,397,676,385,2657,5784);
